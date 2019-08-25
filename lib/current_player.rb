@@ -21,4 +21,13 @@ def turn_count(board)
     return x 
 end 
 
-#objective is to deduec whose turn it is, leveraging the fact that we know how many turns have happened 
+#objective is to deduec whose turn it is, leveraging the fact that we know how many turns have happened already
+def current_player(board)
+    if turn_count(board) % 2 == 0 || turn_count(board) == 0
+      return "X"
+    else
+      return "O"
+    end
+end
+      
+      
