@@ -21,4 +21,4 @@ def turn_count(board)
     return x 
 end 
 
-      
+#objective is to deduec whose turn it is, leveraging the fact that we know how many turns have happened 
