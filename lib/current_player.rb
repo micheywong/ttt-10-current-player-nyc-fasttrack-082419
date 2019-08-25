@@ -1,3 +1,5 @@
+# objective is to count how many turns have been played
+#strategy1 
 def turn_count(board)
   arr = {}
     board.each do |position|
@@ -8,7 +10,7 @@ def turn_count(board)
   return arr.length 
 end
 
-
+#strategy2
 def turn_count(board)
   x = 0 
   board.each do |position|
